@@ -191,11 +191,13 @@ void carregarFase(char url[], int *xFrutas, int *yFrutas){
 	}
 				
 	fclose(arq);
-	SetColor(8);			
+	SetColor(2);			
 	for (i = 0; i < 23; i++){	
 		for (j = 0; j < 60; j++){
 				
-			if (v[i][j] == 'p') printf ("%c", 176);
+			if (v[i][j] == 'p'){
+				SetColor(2);
+				printf ("%c", 176);	} 
 			if (v[i][j] == 'v') printf ("%c", 32);
 			if (v[i][j] == 'f'){
 				SetColor(4);

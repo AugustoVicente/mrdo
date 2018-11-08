@@ -1,5 +1,3 @@
-
-
 #ifndef MRDO_H
 #define MRDO_H
 
@@ -25,7 +23,7 @@ typedef struct{
 
 char movimentoMrDo (mrDo Do, int contFrutas, int *xFrutas, int *yFrutas);
 
-free(xFrutas);
-free(yFrutas);
+//free(xFrutas);
+//free(yFrutas);
 
 #endif
