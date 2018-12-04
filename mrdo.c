@@ -147,18 +147,6 @@ int contaFrutas(char url[]){
 				
 	fclose(arq);
 				
-	for (i = 0; i < 23; i++){	
-		for (j = 0; j < 60; j++){
-				
-				if (v[i][j] == 'f'){
-				contFrutas++;
-								
-				} 
-							
-		} 
-		
-	}
-	
 	return contFrutas;
 }	
 	
