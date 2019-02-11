@@ -1,5 +1,5 @@
 # Mr. Do! - The game
-Version of the Game "Mr Do" written in C Language
+Version of the Game "Mr. Do!" written in C Language
 
 ## Prerequisites
 
